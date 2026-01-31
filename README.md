@@ -21,10 +21,6 @@ This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffie
 
 ### Key Findings
 * **Workweek NO2 Levels > Weekend NO2 Levels:** Workweek days have higher NO2 levels on average than Weekend days. NO2 hourly peaks for workweek days corresponded well with peak traffic hours in Sheffield. This provides evidence that NO2 levels are higher during the workweek due to increased road transport emissions.
-<div align="center"><img width="607" height="388" alt="correlation table picture" src="https://github.com/user-attachments/assets/fbd1dc4d-8329-4d8d-9ea7-6a95a15b62b7" />
-<div align="center">
-    <i>Figure showing the correlation table found in this project between NO2 levels and weather variables in Sheffield.</i>
-<div align="left">
     
 * **NO2 Levels are Highest in the Winter:** Winter has the highest NO2 levels whilst Summer has the lowest NO2 levels in Sheffield. This is consistent with seasonal NO2 patterns found in other countries. NO2 levels are most likely higher in the Winter due to increased emissions from heating whilst they are lower in the Summer due to the increased breakdown of NO2 particles from photolysis and sunlight.
 
@@ -34,14 +30,15 @@ This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffie
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
-The files to run this project are in the [`sheffield_air_pollution_analysis`](https://github.com/andmahoff/sheffield_air_pollution_analysis/tree/main/sheffield_air_pollution_analysis) folder in this repository. The folder contains the subfolders:
-* **`data/`**: This contains `air pollution complete.csv` and `weather data.csv` - the raw CSV files (air pollution and weather data).
-* **`scripts/`**: This contains `full_project_script.R` (The full project script).
+The files to run this project are in the [`sheffield_air_pollution_data_visualisation`](https://github.com/andmahoff/sheffield_air_pollution_data_visualisation/tree/main/sheffield_air_pollution_data_visualisation) folder in this repository. The folder contains the subfolders:
+* **`data/`**: This contains `air pollution data hourl.csv` - the raw CSV file for air pollution.
+* **`scripts/`**: This contains `data visualisation full project script.R` (The full project script).
+* * **`visualisations/`**: This contains `composite visualisation.png`, `visualisation 1.png`, `visualisation 2.png`, `visualisation 3.png`, `visualisation 4.png`   - composite visualisations as well as the four individual visualisations created in this project as png files.
 
 ### Instructions for Downloading and Running the Project Code
 1.  **Downloading the Project Files:**
 
-    Download the files from the [`sheffield_air_pollution_analysis`](https://github.com/andmahoff/sheffield_air_pollution_analysis/tree/main/sheffield_air_pollution_analysis) folder and save them into the same folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
+    Download the files from the [`sheffield_air_pollution_data_visualisation`](https://github.com/andmahoff/sheffield_air_pollution_data_visualisation/tree/main/sheffield_air_pollution_data_visualisation) folder and save them into the same folder that will be your working directory. If you decide to rename the files, remember to change the import filenames in the R script later on.
 3.  **Open the R language supporting IDE:**
 
     Open the IDE in which you want to run the project R script. Remember to use R version 4.5.2
@@ -49,13 +46,13 @@ The files to run this project are in the [`sheffield_air_pollution_analysis`](ht
 
     Run the following line in the R console to install the required packages (if you do not have them installed already):
     ```r
-    install.packages(c("tidyverse", "janitor", "openair", "ranger", "broom", "zoo", "writexl", "correlation", "corrplot", "FSA", "car", "lmtest", "sandwich","relaimpo", "openair","forecast", "ranger", "pdp"))
+    install.packages(c("tidyverse", "janitor", "naniar", "lubridate", "ggpattern"))
     ```
 5.  **Open the script and set the working directory:**
 
-     Open `scripts/full_project_script.R` and set the working directory to the folder which contains the downloaded raw weather and air pollution data e.g.
+     Open `scripts/data_visualisafull_project_script.R` and set the working directory to the folder which contains the raw air pollution data e.g.
      ```r
-    setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution and weather data")
+    setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution data")
      ```
 6.  **Run the Script:**
 
