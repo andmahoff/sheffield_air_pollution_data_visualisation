@@ -7,6 +7,12 @@ Repository for my data science course IJC445 module project.
 Since the industrial revolution, rapid urbanization has dramatically increased levels of air pollution. Air pollution is a major public health issue associated with many health problems including asthma and lung cancer. Tt is estimated to account for around 29,000 to 43,000 deaths a year in the UK alone. Previous studies have shown that NO2 levels daily, weekly, and seasonal patterns in urban areas.
 This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffield for the years 2022-2025 to explore any time-based patterns that Nitrogen Dioxide ($NO_2$) levels may have in Sheffield. Better understanding of this topic can help predict when air pollution levels will be high in Sheffield.
 
+### Composite Visualisation
+<img width="965" height="608" alt="Composite VIsualisation Image" src="https://github.com/user-attachments/assets/8994bbcb-998d-4a50-b672-385743677952" />
+<div align="center">
+    <i>Figure showing the composite visualisation created in this project to show how NO2 levels change with time in Sheffield.</i>
+<div align="left">
+
 ### Research Questions
 * **RQ1:** How do NO2 levels vary in Sheffield depending on the type of day?
 * **RQ2:** How do NO2 levels vary depending on the month and season?
