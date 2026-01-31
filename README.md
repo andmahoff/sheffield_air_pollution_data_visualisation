@@ -50,7 +50,7 @@ The files to run this project are in the [`sheffield_air_pollution_data_visualis
     ```
 5.  **Open the script and set the working directory:**
 
-     Open `scripts/data_visualisafull_project_script.R` and set the working directory to the folder which contains the raw air pollution data e.g.
+     Open `scripts/data_visualisation_full_project_script.R` and set the working directory to the folder which contains the raw air pollution data e.g.
      ```r
     setwd("c:\\Users\\andmahoff user\\Documents\\Folder with raw air pollution data")
      ```
