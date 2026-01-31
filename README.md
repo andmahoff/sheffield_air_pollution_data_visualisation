@@ -8,20 +8,23 @@ Since the industrial revolution, rapid urbanization has dramatically increased l
 This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffield for the years 2022-2025 to explore any time-based patterns that Nitrogen Dioxide ($NO_2$) levels may have in Sheffield. Better understanding of this topic can help predict when air pollution levels will be high in Sheffield.
 
 ### Research Questions
-* **RQ1:** Which weather variables are most strongly correlated with air pollution levels in Sheffield?
-* **RQ2.1:** To what extent can these weather variables predict air pollution levels in Sheffield?
-* **RQ2.2:** Are multilinear regression models or random forest models better at predicting air pollution levels in Sheffield?
+* **RQ1:** How do NO2 levels vary in Sheffield depending on the type of day?
+* **RQ2:** How do NO2 levels vary depending on the month and season?
+* **RQ3.1:** How do NO2 levels vary depending on the year?
+* **RQ3.2:** How and where have NO2 levels changed over the years 2022-2025?
 
 ### Key Findings
-* **Key Drivers:** Wind speed is by far the strongest predictor of NO2 levels in Sheffield followed by temperature and daylight duration. Higher wind speeds significantly reduce pollution.
+* **Workweek NO2 Levels > Weekend NO2 Levels:** Workweek days have higher NO2 levels on average than Weekend days. NO2 hourly peaks for workweek days corresponded well with peak traffic hours in Sheffield. This provides evidence that NO2 levels are higher during the workweek due to increased road transport emissions.
 <div align="center"><img width="607" height="388" alt="correlation table picture" src="https://github.com/user-attachments/assets/fbd1dc4d-8329-4d8d-9ea7-6a95a15b62b7" />
 <div align="center">
     <i>Figure showing the correlation table found in this project between NO2 levels and weather variables in Sheffield.</i>
 <div align="left">
     
-* **Predictive power of weather data:** Weather data can predict NO2 levels in Sheffield fairly well. The multilinear regression model had an adjusted R squared value of 0.62 and relative prediction error of 29.1%. The random forest model had an OOB R squared value of 0.67 and relative prediction error of 27.7%.
+* **NO2 Levels are Highest in the Winter:** Winter has the highest NO2 levels whilst Summer has the lowest NO2 levels in Sheffield. This is consistent with seasonal NO2 patterns found in other countries. NO2 levels are most likely higher in the Winter due to increased emissions from heating whilst they are lower in the Summer due to the increased breakdown of NO2 particles from photolysis and sunlight.
 
-* **Random Forest:** The random forest model performed better than the multilinear regression model. This is because many of the weather variables had non-linear relationships with NO2.
+* **NO2 Levels are Decreasing:** NO2 levels have slowly reduced every year for the years 2022-2025. This is consistent with literature reports about NO2 levels in the UK.
+
+* **Cause of Annual Decrease:** The greatest reductions in NO2 levels compared to 2022 have been mainly during peak traffic hours. Therefore, this provides evidence that the main cause of lower NO2 levels in Sheffield over the last years has been a reduction in emissions from road transportation.
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
