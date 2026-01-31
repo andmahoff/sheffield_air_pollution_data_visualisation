@@ -10,7 +10,7 @@ This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffie
 ### Composite Visualisation
 <img width="965" height="608" alt="Composite VIsualisation Image" src="https://github.com/user-attachments/assets/8994bbcb-998d-4a50-b672-385743677952" />
 <div align="center">
-    <i>Figure showing the composite visualisation created in this project to show how NO2 levels change with time in Sheffield.</i>
+    <i>Figure showing the composite visualisation created in this project</i>
 <div align="left">
 
 ### Research Questions
@@ -22,11 +22,11 @@ This project visualises daily, weekly, seasonal and annual NO2 levels in Sheffie
 ### Key Findings
 * **Workweek NO2 Levels > Weekend NO2 Levels:** Workweek days have higher NO2 levels on average than Weekend days. NO2 hourly peaks for workweek days corresponded well with peak traffic hours in Sheffield. This provides evidence that NO2 levels are higher during the workweek due to increased road transport emissions.
     
-* **NO2 Levels are Highest in the Winter:** Winter has the highest NO2 levels whilst Summer has the lowest NO2 levels in Sheffield. This is consistent with seasonal NO2 patterns found in other countries. NO2 levels are most likely higher in the Winter due to increased emissions from heating whilst they are lower in the Summer due to the increased breakdown of NO2 particles from photolysis and sunlight.
+* **NO2 Levels are Highest in the Winter:** Winter has the highest NO2 levels in Sheffiled whilst Summer has the lowest. This is consistent with seasonal NO2 patterns found in other countries. NO2 levels are most likely higher in the Winter due to increased emissions from heating whilst they are lower in the Summer due to the increased breakdown of NO2 particles from photolysis and sunlight.
 
 * **NO2 Levels are Decreasing:** NO2 levels have slowly reduced every year for the years 2022-2025. This is consistent with literature reports about NO2 levels in the UK.
 
-* **Cause of Annual Decrease:** The greatest reductions in NO2 levels compared to 2022 have been mainly during peak traffic hours. Therefore, this provides evidence that the main cause of lower NO2 levels in Sheffield over the last years has been a reduction in emissions from road transportation.
+* **Cause of Annual Decrease:** The greatest reductions in NO2 levels compared to 2022 have been during peak traffic hours. This provides evidence that the main cause of lower NO2 levels in Sheffield over the last years has been a reduction in emissions from road transportation.
 
 ### The R Code
 The analysis was performed using **R version 4.5.2**.
